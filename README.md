@@ -143,18 +143,6 @@ In addition to the Message property provided by the exception classes, these exc
 property, ThrowingMethodName, which is a string containing the name of the method that threw the exception.
 
 ## Points of Interest
-One interesting thing to note is that data in a WAV audio file is always little-endian, per the specification. On
-big-endian systems, the byte order must be reversed before manipulating the audio data, and the byte order for a
-sample must be reversed before saving it to a WAV file. My WAVFile class handles this automatically; for example,
-if the system is big-endian, then when retrieving audio samples from a WAV file using GetNextSample_16bit() or
-adding a 16-bit sample to a WAV file using AddSample_16bit(), the bye order will be automatically reversed so that
-the data is in the proper order.
-
-In creating the WAVFile class, it was necessary to look up the WAV file format specification. I found many web
-pages describing the WAV file format. Each page has basically the same information, but with different notes. I
-found the following four pages useful:
-
-## Points of Interest
 One interesting thing to note is that data in a WAV audio file is always little-endian, per
 the specification. On big-endian systems, the byte order must be reversed before manipulating
 the audio data, and the byte order for a sample must be reversed before saving it to a WAV
