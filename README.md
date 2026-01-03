@@ -21,7 +21,7 @@ As of this writing (January 3, 2026), that page has versions of Visual Studio fr
 The following is a screenshot of the application:
 
 <p align="center">
-  <img src="screenshots/AudioMixerCSharp.png" alt="Audio Mixer application" width="800">
+  <img src="screenshots/AudioMixerCSharp-AI_upscaled.png" alt="Audio Mixer application" width="800">
 </p>
 
 
