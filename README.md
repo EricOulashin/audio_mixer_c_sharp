@@ -154,7 +154,7 @@ In creating the WAVFile class, it was necessary to look up the WAV file format s
 I found many web pages describing the WAV file format. There were 4 URLs I had referenced
 when I originally wrote this, but only one still exists today:
 <ul>
-<li><a href='http://www.ringthis.com/dev/wave_format.htm' target='_blank'>http://www.ringthis.com/dev/wave_format.htm'_blank</a>
+<li><a href='http://www.ringthis.com/dev/wave_format.htm' target='_blank'>http://www.ringthis.com/dev/wave_format.htm</a>
 </ul>
 
 I also have <a href='https://github.com/EricOulashin/audio_mixer_cpp' target='_blank'>a C++ version of this</a> which I originally wrote in December 2018.
